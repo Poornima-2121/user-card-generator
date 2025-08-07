@@ -39,7 +39,6 @@ select {
 }
 
 button {
-    margin-top: 20px;
     width: 16rem;
     height: 6vh;
     border: none;
@@ -55,17 +54,18 @@ button:hover{
 }
 
 .container{
-    display: flex;
+    display: grid;
     justify-content: center;
     margin: 30px;
+    gap: 30px;
 }
 
 .card{
     width: 30rem;
     height: 25vh;
+    display: flex;
     background-color: rgb(189, 243, 250);
     border-radius: 1rem;
-    display: none;
     box-shadow: 4px 5px 5px rgba(19, 9, 9, 0.507);
 }
 
@@ -94,12 +94,12 @@ img{
     padding: 10px;
 }
 
-#card-name{
+.card-name{
     font-size: 25px;
     font-weight: 500;
     font-style: italic;
 }
 
-#card-email {
+.card-email {
     font-weight: 400;
 }
