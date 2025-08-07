@@ -29,20 +29,31 @@ input{
     font-size: 15px;
 }
 
-button {
+select {
+    height: 6vh;
     width: 16rem;
-    height: 5vh;
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 20px;
+    width: 16rem;
+    height: 6vh;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
     cursor: pointer;
-    background-color: #c6d7e6;
+    background-color: #76b3e9;
     font-size: 15px;
     font-weight: 600;
 }
 button:hover{
-    background-color: #76b3e9;
+    background-color:   #65d865;
 }
+
 
 .container{
     display: flex;
@@ -52,9 +63,45 @@ button:hover{
 
 .card{
     /* display: none; */
-    width: 20rem;
-    height: 30vh;
-    background-color: rgb(244, 250, 189);
+    display: flex;
+    width: 30rem;
+    height: 25vh;
+    background-color: rgb(189, 243, 250);
     border-radius: 1rem;
-    box-shadow: 4px 8px 6px rgba(19, 9, 9, 0.507);
+    box-shadow: 4px 5px 5px rgba(19, 9, 9, 0.507);
+}
+
+img{
+    width: 10rem;
+    height: 25vh;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.img{
+    background-color: white;
+    width: 10rem;
+    height: 25vh;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+}
+
+#card-name{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#card-email {
+    font-weight: 400;
 }

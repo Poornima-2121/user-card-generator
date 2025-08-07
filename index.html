@@ -11,10 +11,22 @@
     <form id="user-form" class="user-form">
         <input type="text" id="name" title="name" placeholder="Name" required>
         <input type="email" id="email" title="email" placeholder="Email" required>
+        <select name="gender" id="gender" title="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
         <button type="submit" title="Generate" id="generate">Generate</button>
     </form>
     <div class="container">
-        <div id="card" class="card"></div>
+        <div id="card" class="card">
+            <div class="img">
+                <img src="images/boy1.jfif" alt="images">
+            </div>
+            <div class="details">
+                <p id="card-name">Name</p>
+                <p id="card-email">Email</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
